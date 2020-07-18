@@ -1,0 +1,12 @@
+prefix           = "attf"
+location         = "australiasoutheast"
+vnet-addspace    = ["10.0.0.0/16"]
+subnet-addprefix = "10.0.10.0/24"
+adminuser        = "rsatadmin"
+adminpass        = "automation@3023"
+#vmsize          = "Standard_DS1_v2"
+servercount      =  2
+istest           =  false
+teamname         = "Cloud Engineering"
+servicename      = "Compute"
+terraformversion = "0.12.28"
