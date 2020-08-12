@@ -44,7 +44,7 @@ terraform graph > mytf.dot
 terraform graph | dot -Tsvg > mytf.svg
 
 
-###to save terraform to a plan file
+##to save terraform to a plan file
 
 terraform plan -out=path
 
